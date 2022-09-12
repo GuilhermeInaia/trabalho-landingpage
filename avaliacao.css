@@ -46,17 +46,12 @@ section img {
 
 /* Parte 2 */
 
-.back{
-    border: 1px solid black;
-    background: #EAEFF1;
-    clip-path: polygon(0 13%, 0 0, 23% 0, 36% 0, 42% 38%, 44% 57%, 44% 73%, 41% 84%, 32% 100%, 14% 100%, 0% 100%, 0 100%);
-}
 main {
     border: 1px solid black;
-     /* background: linear-gradient(
+    background: linear-gradient(
     46deg,
-    rgba(174,196,208) 41%,
-    rgba(243,246,244) 20%);  */
+    rgba(174,196,208) 45%,
+    rgba(243,246,244) 20%); 
     
     /* background-color: #EAEFF1;
     clip-path: polygon(0 13%, 0 0, 23% 0, 36% 0, 42% 38%, 44% 57%, 44% 73%, 41% 84%, 32% 100%, 14% 100%, 0% 100%, 0 100%);  */
@@ -80,7 +75,6 @@ p {
     display: flex;
     justify-content: start;
     color: #6a95aa;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .textone{
     font-size: 20px;
