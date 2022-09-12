@@ -25,7 +25,6 @@ section img {
     display: flex;
     justify-content: start;
     margin: 5px;
-    /* margin-bottom: 1px; */
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,17 +41,25 @@ section img {
 }
 
 .two:hover {
-    cursor: cell;
     transform: scale(0.9);
 }
 
 /* Parte 2 */
 
+.back{
+    border: 1px solid black;
+    background: #EAEFF1;
+    clip-path: polygon(0 13%, 0 0, 23% 0, 36% 0, 42% 38%, 44% 57%, 44% 73%, 41% 84%, 32% 100%, 14% 100%, 0% 100%, 0 100%);
+}
 main {
-    background: linear-gradient(
+    border: 1px solid black;
+     /* background: linear-gradient(
     46deg,
     rgba(174,196,208) 41%,
-    rgba(243,246,244) 20%);
+    rgba(243,246,244) 20%);  */
+    
+    /* background-color: #EAEFF1;
+    clip-path: polygon(0 13%, 0 0, 23% 0, 36% 0, 42% 38%, 44% 57%, 44% 73%, 41% 84%, 32% 100%, 14% 100%, 0% 100%, 0 100%);  */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,12 +69,10 @@ main {
 
 h1{
     color:#004e71;
-    /* margin: 10px; */
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: justify;
     justify-content: start;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
 }
 
@@ -104,7 +109,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 50%;
+    height: 205px;
 }
 
 .textfour{ 
@@ -112,29 +117,25 @@ p {
     font-size: x-large;
     margin-top: 40px;
     padding-bottom: 30px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .textinput{
     background-color: #f3f6f4; 
-    border: 1px solid #f3f6f4;
+    border: 1px solid #094f71;
     color: #094f71;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin: 10px;
+    padding: 12px;
+    margin: 5px;
+    width: 210px;
 }
 
 .textfive{
     color: #f3f6f4;
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin-bottom: 15px;
+    font-size: 10px;
 }
 
 .six{
     background: #f3f6f4;
-    height: 400px;
+    height: 430px;
 }
 
 .textsix{
@@ -142,7 +143,7 @@ p {
     text-align: center;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
     font-size: 30px;
     padding-top: 20px;
 }
@@ -154,7 +155,6 @@ p {
     justify-content: center;
     font-size: large;
     height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -162,8 +162,8 @@ p {
 .texteigth {
     background-color: #f3f6f4; 
     color: #6a95aa;
-    margin: 5px;
-    margin-top: 25px;
+    margin: 24px;
+    margin-top: 40px;
     padding: 15px;
     height: 50px;
     text-align: center;
@@ -179,9 +179,13 @@ p {
     color: #004e71;
     border: 1px solid #004e71;
     margin: 5px;
-    padding: 0 40px;
-    height: 50px;
-   
+    padding: 0px ;
+    height: 70px;
+    width: 155px;
+}
+
+.botao:hover{
+    transform: scale(0.9);
 }
 
 .textnine{
@@ -197,7 +201,8 @@ p {
 }
 
 .textten{
-    height: 120px;
+    /* height: 120px; */
+    padding: 40px;
     background-color: #f3f6f4; 
     color: #004e71;
     text-align: center;
@@ -207,16 +212,20 @@ p {
 } 
 
 .ten{
+    background: #f3f6f4;
     border:1px solid #004e71;
-    color: solid #004e71;
-    padding: 14px;
+    color: #004e71;
     height: 50px;
+    width: 280px;
+}
+
+.ten:hover{
+    transform: scale(0.9);
 }
 
 /* Parte 4 */
 
 .texteleven{
-    border: 1px solid black;
     background: #0077f9;
     height: 280px;
     text-align: center;
@@ -226,7 +235,6 @@ p {
 }
 
 .lista {
-    border: 1px solid black;
     border-right: 1px solid #f3f6f4;
     color: #f3f6f4;
     padding-top: 50px;
@@ -247,19 +255,20 @@ p {
     text-decoration: none;
 }
 
+a:hover{
+    transform: scale(0.9);
+}
+
 .got {
-    border: 1px solid black;
     margin-right: 410px;
 }
 
 .question {
-    border: 1px solid black;
     color: #f3f6f4;
     padding-top: 36px;
 }
 
 .click{
-    border: 1px solid black;
     color: #f3f6f4;
     margin-top: -9px;
 }
