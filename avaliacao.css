@@ -134,7 +134,7 @@ p {
 
 .six{
     background: #f3f6f4;
-    height: 370px;
+    height: 400px;
 }
 
 .textsix{
@@ -216,6 +216,9 @@ p {
 /* Parte 4 */
 
 .texteleven{
+    border: 1px solid black;
+    background: #0077f9;
+    height: 280px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -223,8 +226,64 @@ p {
 }
 
 .lista {
+    border: 1px solid black;
+    border-right: 1px solid #f3f6f4;
     color: #f3f6f4;
+    padding-top: 50px;
+    padding-left: 294px;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
+}
+
+.lista a {
+    
+    margin: 10px;
+    margin-right: 10px;
+    color: #f3f6f4;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
 }
+
+.got {
+    border: 1px solid black;
+    margin-right: 410px;
+}
+
+.question {
+    border: 1px solid black;
+    color: #f3f6f4;
+    padding-top: 36px;
+}
+
+.click{
+    border: 1px solid black;
+    color: #f3f6f4;
+    margin-top: -9px;
+}
+
+/* Parte 5 */
+
+footer{
+    padding: 10px;
+    height: 50px;
+    background: #004e71;
+    text-align: center;
+    align-items: center;
+}
+
+footer img {
+    
+    height: 35px;
+}
+
+footer div {
+    color: #f3f6f4;
+    font-size: 8px;
+    font-weight: 10;
+}
+
+
+
