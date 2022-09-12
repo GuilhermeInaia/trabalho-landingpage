@@ -122,6 +122,10 @@ p {
     width: 210px;
 }
 
+.textinput:hover{
+    transform: scale(0.9);
+}
+
 .textfive{
     color: #f3f6f4;
     font-size: 10px;
@@ -195,7 +199,6 @@ p {
 }
 
 .textten{
-    /* height: 120px; */
     padding: 40px;
     background-color: #f3f6f4; 
     color: #004e71;
